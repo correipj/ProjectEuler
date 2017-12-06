@@ -1,0 +1,23 @@
+-Add problem title in comment at top of all source code files to allow for
+grep'ing through files.
+
+-Smarter isPrime function, from project-euler forums:
+For 32 bits integers you don't have to carry out the complete Miller-Rabin to
+establish primality, it suffices to call the witness function max. 3 times with
+bases resp. 2, 7 and 61. this leads to a very fast primality test for numbers 
+up to about 4.3 billion (I forgot the first failure, but it's over 2^32).
+
+-Smarter shared functions in general
+
+Implement next_combination function?
+(in.begin(), in.end(), out.begin(), out.end())
+
+Problems in varying stages of completion
+78
+233
+608
+613
+
+Fun problems with well-coded solutions:
+72
+98

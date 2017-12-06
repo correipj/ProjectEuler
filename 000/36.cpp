@@ -1,4 +1,5 @@
 // https://projecteuler.net/problem=36
+// Double-base palindromes
 
 #include <iostream>
 #include <vector>

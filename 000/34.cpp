@@ -1,4 +1,5 @@
 // https://projecteuler.net/problem=34
+// Digit factorials
 
 #include <iostream>
 #include <cmath>

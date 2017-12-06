@@ -1,4 +1,5 @@
 // https://projecteuler.net/problem=97
+// Large non-mersenne prime
 
 #include <iostream>
 

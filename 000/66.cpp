@@ -1,4 +1,5 @@
 // https://projecteuler.net/problem=66
+// Diophantine equation
 
 #include <iostream>
 #include <algorithm>

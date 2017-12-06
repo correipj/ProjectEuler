@@ -1,4 +1,5 @@
 // https://projecteuler.net/problem=50
+// Consecutive prime sum
 
 #include <iostream>
 #include <string>

@@ -1,4 +1,5 @@
 // https://projecteuler.net/problem=43
+// Sub-string divisibility
 
 #include <iostream>
 #include <array>

@@ -1,4 +1,5 @@
 // https://projecteuler.net/problem=53
+// Combinatoric selections
 
 #include <iostream>
 

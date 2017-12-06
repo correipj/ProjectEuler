@@ -1,4 +1,5 @@
 // https://projecteuler.net/problem=42
+// Coded triangle numbers
 
 #include <iostream>
 #include <fstream>
@@ -17,7 +18,7 @@ unsigned int wordVal(const string& s) {
 }
 
 int main(int argc, char* argv[]) {
-	ifstream fin("words.txt");
+	ifstream fin("p042_words.txt");
 
 	vector<unsigned int> tri;
 	tri.push_back(1);

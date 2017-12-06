@@ -1,4 +1,5 @@
 // https://projecteuler.net/problem=59
+// XOR decryption
 
 #include <iostream>
 #include <fstream>
@@ -34,7 +35,7 @@ bool isCharValid(unsigned char c) {
 }
 
 int main(int argc, char* argv[]) {
-	ifstream fin("cipher.txt");
+	ifstream fin("p059_cipher.txt");
 
 	vector<unsigned int> chars;
 	while(fin.good()) {		

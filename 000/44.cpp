@@ -1,4 +1,5 @@
 // https://projecteuler.net/problem=44
+// Pentagon numbers
 
 #include <iostream>
 #include <vector>

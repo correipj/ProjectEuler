@@ -1,4 +1,5 @@
 // https://projecteuler.net/problem=32
+// Pandigital products
 
 #include <iostream>
 #include <cmath>

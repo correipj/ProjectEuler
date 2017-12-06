@@ -1,4 +1,5 @@
 // https://projecteuler.net/problem=54
+// Poker hands
 
 #include <iostream>
 #include <string>
@@ -339,7 +340,7 @@ bool p1Winner(const hand_t& h1, const hand_t& h2) {
 }
 
 int main(int argc, char* argv[]) {
-	ifstream fin("poker.txt");
+	ifstream fin("p054_poker.txt");
 	
 	vector<pair<hand_t, hand_t> > hands;
 

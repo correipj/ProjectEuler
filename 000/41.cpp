@@ -1,4 +1,5 @@
 // https://projecteuler.net/problem=41
+// Pandigital prime
 
 #include <iostream>
 #include <string>

@@ -1,4 +1,5 @@
 // https://projecteuler.net/problem=64
+// Odd period square roots
 
 #include <iostream>
 #include <cmath>

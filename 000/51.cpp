@@ -1,4 +1,5 @@
 // https://projecteuler.net/problem=51
+// Prime digit replacements
 
 #include <iostream>
 #include <cmath>

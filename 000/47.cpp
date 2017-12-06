@@ -1,4 +1,5 @@
 // https://projecteuler.net/problem=47
+// Distinct primes factors
 
 #include <iostream>
 #include <string>

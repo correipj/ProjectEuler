@@ -1,4 +1,5 @@
 // https://projecteuler.net/problem=70
+// Totient permutation
 
 #include <iostream>
 #include <vector>

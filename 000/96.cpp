@@ -271,7 +271,7 @@ unsigned int solve(grid_t& g) {
 }
 
 int main(int argc, char* argv[]) {
-	ifstream fin("sudoku.txt");
+	ifstream fin("p096_sudoku.txt");
 
 	unsigned int sum = 0;
 	int i = 0;

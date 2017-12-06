@@ -1,4 +1,5 @@
 // https://projecteuler.net/problem=91
+// Right triangles with integer coordinates
 
 #include <iostream>
 #include <map>

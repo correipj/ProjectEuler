@@ -1,4 +1,5 @@
-// https://projecteuler.net/problem=83
+// https://projecteuler.net/problem=82
+// Path sum: three ways
 
 #include <iostream>
 #include <fstream>
@@ -69,7 +70,7 @@ int main(int argc, char* argv[]) {
 	for (int i = 0; i < SIZE; i++)
 		mat.push_back(vector<unsigned long>(SIZE));	
 
-	ifstream fin("matrix.txt");
+	ifstream fin("p082_matrix.txt");
 	for (int i = 0; i < SIZE; i++)
 		for (int j = 0; j < SIZE; j++) {
 			char comma;

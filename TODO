@@ -1,6 +1,3 @@
--Add problem title in comment at top of all source code files to allow for
-grep'ing through files.
-
 -Smarter isPrime function, from project-euler forums:
 For 32 bits integers you don't have to carry out the complete Miller-Rabin to
 establish primality, it suffices to call the witness function max. 3 times with

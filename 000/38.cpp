@@ -1,4 +1,5 @@
 // https://projecteuler.net/problem=38
+// Pandigital multiples
 
 #include <iostream>
 #include <cmath>

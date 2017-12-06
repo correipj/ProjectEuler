@@ -1,4 +1,5 @@
 // https://projecteuler.net/problem=69
+// Totient maximum
 
 #include <iostream>
 #include "../Shared/primes.h"

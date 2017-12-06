@@ -1,4 +1,5 @@
 // https://projecteuler.net/problem=233
+// Lattice points on a circle
 
 #include <iostream>
 #include <string>

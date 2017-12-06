@@ -1,4 +1,5 @@
 // https://projecteuler.net/problem=65
+// Convergents of e
 
 #include <iostream>
 #include <algorithm>

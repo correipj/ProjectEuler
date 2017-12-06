@@ -1,4 +1,5 @@
 // https://projecteuler.net/problem=39
+// Integer right triangles
 
 #include <iostream>
 #include <string>

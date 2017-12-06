@@ -1,4 +1,5 @@
 // https://projecteuler.net/problem=100
+// Arrange probability
 
 #include <iostream>
 #include <cmath>

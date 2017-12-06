@@ -1,4 +1,5 @@
 // https://projecteuler.net/problem=48
+// Self powers
 
 #include <iostream>
 

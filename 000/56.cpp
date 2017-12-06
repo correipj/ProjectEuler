@@ -1,4 +1,5 @@
 // https://projecteuler.net/problem=56
+// Powerful digit sum
 
 #include <iostream>
 #include <algorithm>

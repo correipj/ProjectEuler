@@ -1,4 +1,5 @@
 // https://projecteuler.net/problem=61
+// Cyclical figurate numbers
 
 #include <iostream>
 #include <vector>

@@ -1,4 +1,5 @@
 // https://projecteuler.net/problem=37
+// Truncateable primes
 
 #include <iostream>
 #include <vector>

@@ -1,4 +1,5 @@
 // https://projecteuler.net/problem=243
+// Resilience
 
 #include <iostream>
 #include <fstream>

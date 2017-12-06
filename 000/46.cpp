@@ -1,4 +1,5 @@
 // https://projecteuler.net/problem=46
+// Goldbach's other conjecture
 
 #include <iostream>
 #include <cmath>

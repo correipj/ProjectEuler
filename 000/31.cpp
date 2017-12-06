@@ -1,4 +1,5 @@
 // https://projecteuler.net/problem=31
+// Coin sums
 
 #include <iostream>
 #include <array>

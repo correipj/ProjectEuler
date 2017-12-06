@@ -1,4 +1,5 @@
 // https://projecteuler.net/problem=40
+// Champernowne's constant
 
 #include <iostream>
 #include <string>

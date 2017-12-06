@@ -1,4 +1,5 @@
 // https://projecteuler.net/problem=33
+// Digit cancelling fractions
 
 #include <iostream>
 #include <cmath>

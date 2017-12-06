@@ -1,4 +1,5 @@
 // https://projecteuler.net/problem=55
+// Lychrel numbers
 
 #include <iostream>
 #include <cmath>

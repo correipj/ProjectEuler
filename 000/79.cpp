@@ -1,4 +1,5 @@
 // https://projecteuler.net/problem=79
+// Passcode derivation
 
 #include <iostream>
 

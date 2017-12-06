@@ -1,4 +1,5 @@
 // https://projecteuler.net/problem=49
+// Prime permutations
 
 #include <iostream>
 #include <cmath>

@@ -78,7 +78,7 @@ unsigned long applyMap(const charMap_t& m, const string& s) {
 
 int main(int argc, char* argv[]) {
 	vector<string> words;
-	ifstream fin("words.txt");
+	ifstream fin("p098_words.txt");
 
 	while(fin.good()) {
 		unsigned char c;

@@ -1,4 +1,5 @@
 // https://projecteuler.net/problem=81
+// Path sum: two ways
 
 #include <iostream>
 #include <fstream>
@@ -8,7 +9,7 @@
 using namespace std;
 
 int main(int argc, char* argv[]) {
-	ifstream fin("matrix.txt");
+	ifstream fin("p081_matrix.txt");
 
 	const int SIZE = 80;
 	

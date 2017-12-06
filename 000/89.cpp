@@ -1,4 +1,5 @@
 // https://projecteuler.net/problem=89
+// Roman numerals
 
 #include <iostream>
 #include <fstream>
@@ -139,7 +140,7 @@ string num2Rom (int n) {
 }
 
 int main(int argc, char* argv[]) {
-	ifstream fin("roman.txt");
+	ifstream fin("p089_roman.txt");
 
 	int nSaved = 0;
 	string line;

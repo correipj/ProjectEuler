@@ -1,4 +1,5 @@
 // https://projecteuler.net/problem=45
+// Triangular, pentagonal, and hexagonal
 
 #include <iostream>
 #include <vector>

@@ -21,9 +21,20 @@ using namespace std;
 // long. I could solve what is easy and let the computer solve the higher order
 // parts but this might run into the same problems as before.
 
+// f(x, y) can be re-written as a single arccos instead of a difference of 
+// arctans. Might make first integration simpler
+
+// Doing the integration by hand is a pain but do-able. The difference of
+// arctans can be split up into two separate integrals. This allows integrating
+// in different oders between the two. Everything cancels nicely.
+// Final answer is 1/2 - 3ln(5/3)/8pi - 2ln(5/4)/3pi
+
+// Euler integration with 10000x10000 areas gives an answer correct to 4 (FOUR)
+// decimal places. I think pen+paper was quicker than letting this run
+
 
 double f(double x, double y) {
-	return M_PI - atan2(4-x, y) - atan2(3-y, x);
+	return M_PI + atan2(x, 3-y) - atan2(4-x, y);
 }
 
 double integrate(double(*func)(double), double a, double b, unsigned long n) {
@@ -38,7 +49,7 @@ double integrate(double(*func)(double), double a, double b, unsigned long n) {
 
 
 int main(int argc, char* argv[]) {
-	vector<unsigned int> testNs = {100, 500, 1000, 5000, 10000, 20000, 30000, 40000, 50000};
+	vector<unsigned int> testNs = {100, 500, 1000, 5000, 10000};
 	
 	for (auto n : testNs) {
 		const double minX = 0.0;
@@ -57,9 +68,17 @@ int main(int argc, char* argv[]) {
 
 			sum += sumY * dx;
 		}
-		printf("N = %5d   %.9f\n", n, sum/(1*2*M_PI));
+		printf("N = %5d   %.9f\n", n, sum/(6*2*M_PI));
 	}
+
+	double d = 0.5;
+	d -= 3*log(5.0/3.0)/(8*M_PI);
+	d -= 2*log(5.0/4.0)/(3*M_PI);
+
 	
+	printf("prob =      %.10f\n", d);
+
+
 	getchar();
 
 	return 0;

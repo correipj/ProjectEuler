@@ -9,11 +9,12 @@ up to about 4.3 billion (I forgot the first failure, but it's over 2^32).
 Implement next_combination function?
 (in.begin(), in.end(), out.begin(), out.end())
 
+Solved problems in need of cleaning up and/or restructuring:
+86
+
 Problems in varying stages of completion
-78
 233
 608
-613
 
 Fun problems with well-coded solutions:
 72

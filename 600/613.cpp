@@ -1,12 +1,11 @@
 // https://projecteuler.net/problem=613
+// Pythagorean Ant
 
 #define _USE_MATH_DEFINES
 #include <cmath>
 
 #include <iostream>
 #include <vector>
-
-//#define PI	3.14159265359
 
 using namespace std;
 
